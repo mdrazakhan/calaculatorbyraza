@@ -7,9 +7,6 @@ let buttons = document.querySelectorAll('button');
 let string = "";
 let arr = Array.from(buttons);
 
-// ❌ This was wrong: arr.forEach(button);
-// ❌ Isse error aa raha tha
-// ✔️ Remove it
 
 arr.forEach(button => {
     button.addEventListener('click', (e) => {
